@@ -1,6 +1,6 @@
 <template>
   <div id="sample_text">
-    contents sample 
+    contents sample
   </div>
 </template>
 
@@ -17,6 +17,6 @@ export default defineComponent({
 <style>
 #sample_text{
   color: yellow;
-  font-size: 100px;
+  font-size: 50px;
 }
 </style>

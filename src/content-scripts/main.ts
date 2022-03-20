@@ -1,8 +1,6 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 
-console.log("hello contents")
-
 //window.addEventListener('DOMContentLoaded', async () => {
 //  console.log("DOMContentLoadedイベントが実行されました。");
 //});
@@ -10,7 +8,7 @@ console.log("hello contents")
 window.onload = async () => {
   await new Promise(r => setTimeout(r, 1000));
   console.log("hello contents script")
-  const el = document.querySelector('.collection-info')
+  const el = document.querySelector('.js-header-wrapper ')
   console.log(el)
   if (el) {
     console.log(el)
